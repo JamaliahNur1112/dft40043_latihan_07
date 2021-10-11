@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borang Pendaftaran</title>
+</head>
+
+<body>
+    <h2>Borang Pendaftaran</h2>
+
+    <table border="1" width="75%" cellpaddings="5" cellspacing="0">
+        <tr bgcolor="yellow">
+            <th colspan="4">LOGIN STUDENT </th>
+
+        </tr>
+        <form action="upload.html">
+            <tr>
+                <td>
+                    <label for="Username">Username :</label><br>
+                </td>
+                <td>
+                    <input type="" id="Uname" name="Uname" value="" maxlength="12"
+                        placeholder="Registration Number"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pwd">Password :</label><br>
+                </td>
+                <td>
+                    <input type="password" id="pwd" name="pwd"><br><br>
+                </td>
+            </tr>
+
+
+        </form>
+        <br><br>
+    </table>
+
+    <br><br>
+
+    <table border="1" width="100%" cellspacing="1">
+        <tr bgcolor="lightgreen">
+            <th colspan="4" align="left">BORANG PENDAFTARAN </th>
+        </tr>
+        <form action="upload.html">
+            <tr>
+                <td>
+                    <label for="fname">Name :</label><br>
+                </td>
+                <td>
+                    <input type="" id="fname" name="fname" value=""><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Address" align="top">Address : </label><br>
+                </td>
+                <td>
+                    <textarea type="text" id="Address" placeholder=" Full Address" value=""></textarea><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="NoMatric">Registration Number :</label><br>
+                </td>
+                <td>
+                    <input type="NoMatric" id="NoMatric" name="NoMatric" maxlength="12"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="NoTel">No Tel :</label><br>
+                </td>
+                <td>
+                    <input type="text" id="NoTel" placeholder="013-4567890" name="NoTel" value=""><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="quantity">Semester :</label>
+                </td>
+                <td>
+                    <input type="number" id="semester" name="semester" min="1" max="8">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Please select your gender :</label><br>
+                </td>
+                <td>
+                    <label><input type="radio" name="jantina" value="Men" checked>Male</label>
+                    <label><input type="radio" name="jantina" value="Woman" checked>Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Enter your email:</label>
+                </td>
+                <td>
+                    <input type="email" id="email" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">Parent Salary:</label>
+                </td>
+                <td>
+
+                    <input type="text"type="hidden" id="parentsalary" name="parentsalary" value="2234">
+                </td>
+            </tr>
+           
+
+            <tr>
+                <td>
+                    <label for="negeri">Please select your current state :</label><br>
+                </td>
+                <td>
+                    <select name="negeri" required>
+                        <option value=""></option>
+                        <option value="Perlis">Perlis</option>
+                        <option value="Kedah">Kedah</option>
+                        <option value="Perak">Perak</option>
+                        <option value="Pulau Pinang">Pulau Pinang</option>
+                        <option value="Pahang">Pahang</option>
+                        <option value="Selangor">Selangor</option>
+                        <option value="Negeri Sembilan">Negeri Sembilan</option>
+                        <option value="Johor">Johor</option>
+                        <option value="Kelantan">Kelantan</option>
+                        <option value="Melaka">Melaka</option>
+                        <option value="Terengganu">Terengganu</option>
+                        <option value="Sabah">Sabah</option>
+                        <option value="Sarawak">Sarawak</option>
+                        <option value="Wilayah Persekutuan">Wilayah Persekutuan</option>
+                    </select>
+                </td>
+            </tr>
+            
+
+    </table>
+    <button type="submit">SUBMIT</button>
+    <button type="reset">RESET</button>
+</form>
+    <br><br>
+
+</body>
+
+</html>
