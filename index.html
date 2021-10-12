@@ -16,13 +16,13 @@
             <th colspan="4">LOGIN STUDENT </th>
 
         </tr>
-        <form action="upload.html">
+        <form action="upload.html" method="post">
             <tr>
                 <td>
                     <label for="Username">Username :</label><br>
                 </td>
                 <td>
-                    <input type="" id="Uname" name="Uname" value="" maxlength="12"
+                    <input type="text" id="Uname" name="Uname" value="" maxlength="12"
                         placeholder="Registration Number"><br><br>
                 </td>
             </tr>
@@ -46,13 +46,13 @@
         <tr bgcolor="lightgreen">
             <th colspan="4" align="left">BORANG PENDAFTARAN </th>
         </tr>
-        <form action="upload.html">
+        <form action="upload.html" method="POST">
             <tr>
                 <td>
                     <label for="fname">Name :</label><br>
                 </td>
                 <td>
-                    <input type="" id="fname" name="fname" value=""><br><br>
+                    <input type="text" id="fname" name="fname" value=""><br><br>
                 </td>
             </tr>
             <tr>
@@ -104,16 +104,7 @@
                     <input type="email" id="email" name="email">
                 </td>
             </tr>
-            <tr>
-                <td>
-                    <label for="fname">Parent Salary:</label>
-                </td>
-                <td>
-
-                    <input type="text"type="hidden" id="parentsalary" name="parentsalary" value="2234">
-                </td>
-            </tr>
-           
+            
 
             <tr>
                 <td>
@@ -139,9 +130,18 @@
                     </select>
                 </td>
             </tr>
-            
+            <tr>
+                <td>
+                    <label for="myfile">Select a file:</label>
+  
+                </td>
+                <td>
+                    <input type="file" id="myfile" name="myfile">
+                </td>
+            </tr>
 
     </table>
+    <input type="hidden" name="tarikh" value="12 oktober 2021">
     <button type="submit">SUBMIT</button>
     <button type="reset">RESET</button>
 </form>
